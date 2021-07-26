@@ -84,7 +84,7 @@ testDataValue = (testSplit[1] - 2) / 2
 theta = np.random.random((trainDataFeature.shape[1], 1))
 
 arpha = 0.01
-Lambda = 1
+Lambda = 10
 maxIterationTimes = 100000000
 theta = gradientDecent(arpha, Lambda, maxIterationTimes, theta, trainDataFeature, trainDataValue)
 
